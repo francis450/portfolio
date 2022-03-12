@@ -11,7 +11,7 @@ const Footer = () => {
         <LinkColumn>
           <LinkTitle>Chat</LinkTitle>
           <LinkItem href="https://t.me/lordarcadius">Telegram</LinkItem>
-        </LinkColumn>
+        </LinkColumn> 
         <LinkColumn>
           <LinkTitle>Email</LinkTitle>
           <LinkItem href="mailto:hey@vipuljha.com">
