@@ -759,7 +759,7 @@ rgb(167, 48, 48) .contact .title::after {
   width: 30px;
   height: 30px;
   border-radius: 50%;
-  background-color: #1e3551;
+  /* background-color: #1e3551; */
   text-align: center;
   transition: 0.6s;
   box-shadow: 0 5px 4px rgba(0, 0, 0, 0.5);
@@ -945,6 +945,10 @@ footer span a:hover {
 }
 
 @media (max-width: 500px) {
+  .image {
+    width: 100%;
+    overflow: hidden;
+  }
   .nav {
     display: flex;
     flex-direction: column;
